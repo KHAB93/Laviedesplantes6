@@ -1,0 +1,31 @@
+2024-08-10T04:52:44+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_66b6f21ce139chttplocalhost8888bddlaviedesplanteswp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost:8888\/bddlaviedesplantes\/wp-admin\/"}
+ ajax: no
+2024-08-10T04:52:45+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 2024081004524484AD733E44B99D43D2EE,2024081004524484AD733E44B99D43D2EE
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 01406ea01784493c73b1a2bbb0b6844ae822ea03064db9baad98e6d6d70020f1ce79b95fe9435fbd9dc9387c5977833350f1272beb4f75b58460a633bb6319489d740e97d7086ef641ef85cf9198990bfc98439b080ed128517d2a4d5b80793a71dadd0992fcdeedbc1eed407be3091c92c435e46f0ace897bc75a1f863092828e
+x-tt-trace-id: 00-24081004524484AD733E44B99D43D2EE-669C3DDA314F7A79-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 217
+X-Origin-Response-Time: 67,23.44.214.13
+X-Akamai-Request-ID: ab6ecb0.3c885ff0.6239cc7
+X-Parent-Response-Time: 211,2.16.152.97
+Date: Sat, 10 Aug 2024 04:52:45 GMT
+X-Cache: TCP_MISS from a104-90-205-87.deploy.akamaitechnologies.com (AkamaiGHost/11.6.1-8b2dfe3939b99771c02ec6eca94739cd) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a2-16-152-97.deploy.akamaitechnologies.com (AkamaiGHost/11.6.1-8b2dfe3939b99771c02ec6eca94739cd) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=155, origin; dur=67
+Server-Timing: inner; dur=63
+X-Parent-Response-Time: 220,104.90.205.87
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"http:\/\/localhost:8888\/bddlaviedesplantes\/wp-admin\/","app_secret":"bd762c8b69830aa4e5c52449e9bee73094994327","external_data_key":"ac91a131-bd3c-4b6e-9884-39a94edb8b41","app_id":"7401369246254514184"}}
+2024-08-10T15:37:22+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-08-10T15:37:22+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
